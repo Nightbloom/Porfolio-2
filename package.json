@@ -1,0 +1,17 @@
+{
+  "name": "porfolio-2",
+  "version": "1.0.0",
+  "description": "This is portfolio that will be based of Node.js and will also be working",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sid",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express.js": "^1.0.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
