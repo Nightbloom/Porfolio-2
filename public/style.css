@@ -270,7 +270,7 @@ body{
     grid-column: 2 span;
 }
 
-.project{
+.project, .contact{
     position: relative;
     padding: 50px 10vw;
 }
@@ -344,4 +344,8 @@ body{
 
 .project-card:hover .content{
     opacity: 1;
+}
+
+.project-card.hide{
+    display: none;
 }
